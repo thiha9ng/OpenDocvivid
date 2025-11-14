@@ -5,6 +5,10 @@
 OpenDocvivid is a modern, AI‑powered document and video understanding platform.  
 It helps you upload content (documents, web pages), process it with large language models, and generate vivid videos.
 
+## Screenshot
+
+![Screenshot](./img/main.png)
+
 ### Key Features
 
 - **AI‑assisted content understanding**: Extract, summarize, and analyze information from documents and videos using LLMs.
