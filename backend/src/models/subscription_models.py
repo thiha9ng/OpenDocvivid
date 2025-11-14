@@ -47,7 +47,7 @@ SUBSCRIPTION_PLANS = {
         "description": "basic plan, monthly 1000 credits",
         "periods": {
             SubscriptionPeriod.MONTHLY: {
-                "product_id": "prod_1986065927804915713",
+                "product_id": "payment_product_id",
                 "price": 12.00,
                 "billing_cycle_months": 1,
             },
@@ -55,7 +55,7 @@ SUBSCRIPTION_PLANS = {
                 "price": 9.00,  # Average monthly price
                 "billing_cycle_months": 12,
                 "total_price": 108.00,  # Annual total price
-                "product_id": "prod_1986069093581688833",
+                "product_id": "payment_product_id",
             }
         }
     },
@@ -65,13 +65,13 @@ SUBSCRIPTION_PLANS = {
         "description": "pro plan, monthly 2200 credits",
         "periods": {
             SubscriptionPeriod.MONTHLY: {
-                "product_id": "prod_1986067854433292290",
+                "product_id": "payment_product_id",
                 "price": 24.00,
                 "billing_cycle_months": 1,
             },
             SubscriptionPeriod.YEARLY: {
                 "price": 19.00,  # Average monthly price
-                "product_id": "prod_1986068778430074881",
+                "product_id": "payment_product_id",
                 "billing_cycle_months": 12,
                 "total_price": 228.00,  # Annual total price
             }
