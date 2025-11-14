@@ -1,0 +1,6 @@
+# DocVivid robots.txt
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://aidocvivid.com/sitemap.xml
