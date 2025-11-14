@@ -1,4 +1,4 @@
- **[中文](./README-ZH.md)**  
+ **[中文](./README-CN.md)**  
 
 ## OpenDocvivid
 
